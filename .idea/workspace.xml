@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="" />
+    <list default="true" id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.RomanToInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.PalindromeNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,19 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.TwoSum.js">
+        <entry file="file://$PROJECT_DIR$/3.PalindromeNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="157">
+              <caret line="22" column="3" lean-forward="true" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.ReverseInteger.js">
+        <entry file="file://$PROJECT_DIR$/13.RomanToInteger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="1520">
+              <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -40,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -47,14 +56,19 @@
         <option value="$PROJECT_DIR$/1. Two Sum.js" />
         <option value="$PROJECT_DIR$/1.Two_Sum.js" />
         <option value="$PROJECT_DIR$/2.ReverseInteger.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/3.PalindromeNumber.js" />
+        <option value="$PROJECT_DIR$/13.RomanToInteger.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="53" />
     <option name="width" value="1630" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -75,7 +89,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -93,7 +109,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.2.ReverseInteger.js">
+  <component name="RunManager" selected="Node.js.13.RomanToInteger.js">
+    <configuration name="13.RomanToInteger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="13.RomanToInteger.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="1.TwoSum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1.TwoSum.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -102,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.13.RomanToInteger.js" />
         <item itemvalue="Node.js.2.ReverseInteger.js" />
         <item itemvalue="Node.js.1.TwoSum.js" />
       </list>
@@ -119,15 +139,15 @@
       <updated>1561426259423</updated>
       <workItem from="1561426260700" duration="638000" />
       <workItem from="1561426915484" duration="3195000" />
-      <workItem from="1561462998237" duration="1773000" />
+      <workItem from="1561462998237" duration="6765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5606000" />
+    <option name="totallyTimeSpent" value="10598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1630" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1630" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978248" />
@@ -141,7 +161,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.25027204" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -167,10 +187,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2.ReverseInteger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="277">
+          <caret line="20" column="3" lean-forward="true" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.PalindromeNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="22" column="3" lean-forward="true" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.RomanToInteger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
         </state>
       </provider>
     </entry>
