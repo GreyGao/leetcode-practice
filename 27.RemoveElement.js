@@ -9,9 +9,27 @@
  * @param {number} val
  * @return {number}
  */
-var removeElement = function (nums, val) {
 
+// var removeElement = function(nums, val) {
+//   const trash = [];
+//   nums.forEach((num, index) => {
+//     if (num === val) {
+//       trash.push(index);
+//     }
+//   })
+//   trash.forEach((i, index)=>{
+//     nums.splice(i - index, 1);
+//   })
+//
+//   return nums.length;
+// };
+
+var removeElement = function (nums, val) {
+  while (nums.indexOf(val, 0)> -1){
+    nums.splice(nums.indexOf(val,0), 1);
+  }
+  return nums.length;
 };
 
-console.log(removeElement([3, 2, 2, 3], 3)); // 2
+console.log(removeElement([3, 2, 2, 3, 3], 3)); // 2
 console.log(removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2)); // 5
