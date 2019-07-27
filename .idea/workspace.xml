@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13.RomanToInteger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.PalindromeNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20.ValidParentheses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21.MergeTwoSortedLists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26.RemoveDuplicatesfromSortedArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27.RemoveElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20.Valid Parentheses.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,19 +22,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.PalindromeNumber.js">
+        <entry file="file://$PROJECT_DIR$/26.RemoveDuplicatesfromSortedArray.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="22" column="3" lean-forward="true" selection-end-line="41" />
+            <state relative-caret-position="323">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/27.RemoveElement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13.RomanToInteger.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -56,17 +67,22 @@
         <option value="$PROJECT_DIR$/1. Two Sum.js" />
         <option value="$PROJECT_DIR$/1.Two_Sum.js" />
         <option value="$PROJECT_DIR$/2.ReverseInteger.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/3.PalindromeNumber.js" />
         <option value="$PROJECT_DIR$/13.RomanToInteger.js" />
+        <option value="$PROJECT_DIR$/20。ValidParentheses.js" />
+        <option value="$PROJECT_DIR$/20.ValidParentheses.js" />
+        <option value="$PROJECT_DIR$/21.MergeTwoSortedLists.js" />
+        <option value="$PROJECT_DIR$/26.RemoveDuplicatesfromSortedArray.js" />
+        <option value="$PROJECT_DIR$/27.RemoveElement.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="53" />
-    <option name="width" value="1630" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="942" />
+    <option name="y" value="23" />
+    <option name="width" value="1545" />
+    <option name="height" value="1274" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,7 +111,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,11 +125,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.13.RomanToInteger.js">
+  <component name="RunManager" selected="Node.js.26.RemoveDuplicatesfromSortedArray.js">
     <configuration name="13.RomanToInteger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="13.RomanToInteger.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="1.TwoSum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1.TwoSum.js" working-dir="$PROJECT_DIR$">
+    <configuration name="20.ValidParentheses.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="20.ValidParentheses.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="21.MergeTwoSortedLists.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="21.MergeTwoSortedLists.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="26.RemoveDuplicatesfromSortedArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="26.RemoveDuplicatesfromSortedArray.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="2.ReverseInteger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="2.ReverseInteger.js" working-dir="$PROJECT_DIR$">
@@ -121,9 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.26.RemoveDuplicatesfromSortedArray.js" />
+        <item itemvalue="Node.js.21.MergeTwoSortedLists.js" />
+        <item itemvalue="Node.js.20.ValidParentheses.js" />
         <item itemvalue="Node.js.13.RomanToInteger.js" />
         <item itemvalue="Node.js.2.ReverseInteger.js" />
-        <item itemvalue="Node.js.1.TwoSum.js" />
       </list>
     </recent_temporary>
   </component>
@@ -139,30 +163,33 @@
       <updated>1561426259423</updated>
       <workItem from="1561426260700" duration="638000" />
       <workItem from="1561426915484" duration="3195000" />
-      <workItem from="1561462998237" duration="6765000" />
+      <workItem from="1561462998237" duration="6959000" />
+      <workItem from="1561512853064" duration="1587000" />
+      <workItem from="1562651012224" duration="1231000" />
+      <workItem from="1564233321991" duration="7719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10598000" />
+    <option name="totallyTimeSpent" value="21329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1630" height="1027" extended-state="6" />
+    <frame x="942" y="23" width="1545" height="1274" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15813649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26415095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3516295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25027204" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24957119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -172,35 +199,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20.Valid Parentheses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.TwoSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.ReverseInteger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="20" column="3" lean-forward="true" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.PalindromeNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -208,10 +247,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.TwoSum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.ReverseInteger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20。ValidParentheses.js" />
     <entry file="file://$PROJECT_DIR$/13.RomanToInteger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
+        <state relative-caret-position="1178">
           <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21.MergeTwoSortedLists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.ValidParentheses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26.RemoveDuplicatesfromSortedArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27.RemoveElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
