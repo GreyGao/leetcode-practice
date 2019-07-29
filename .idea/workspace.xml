@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/66.PlusOne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/67.AddBinary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,19 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/53.MaximumSubarray.js">
+        <entry file="file://$PROJECT_DIR$/66.PlusOne.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="2" lean-forward="true" selection-end-line="34" />
+            <state relative-caret-position="440">
+              <caret line="46" selection-start-line="46" selection-end-line="47" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/66.PlusOne.js">
+        <entry file="file://$PROJECT_DIR$/67.AddBinary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="617">
+              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -66,14 +67,15 @@
         <option value="$PROJECT_DIR$/53.MaximumSubarray.js" />
         <option value="$PROJECT_DIR$/38.CountAndSay.js" />
         <option value="$PROJECT_DIR$/66.PlusOne.js" />
+        <option value="$PROJECT_DIR$/67.AddBinary.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1006" />
-    <option name="y" value="55" />
+    <option name="x" value="49" />
+    <option name="y" value="23" />
     <option name="width" value="1388" />
-    <option name="height" value="1222" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,7 +95,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,10 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.66.PlusOne.js">
-    <configuration name="35.SearchInsertPosition.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="35.SearchInsertPosition.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.67.AddBinary.js">
     <configuration name="38.CountAndSay.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="38.CountAndSay.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -132,13 +131,16 @@
     <configuration name="66.PlusOne.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="66.PlusOne.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="67.AddBinary.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="67.AddBinary.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.67.AddBinary.js" />
         <item itemvalue="Node.js.66.PlusOne.js" />
         <item itemvalue="Node.js.58.LengthOfLastWord.js" />
         <item itemvalue="Node.js.53.MaximumSubarray.js" />
         <item itemvalue="Node.js.38.CountAndSay.js" />
-        <item itemvalue="Node.js.35.SearchInsertPosition.js" />
       </list>
     </recent_temporary>
   </component>
@@ -158,15 +160,16 @@
       <workItem from="1561512853064" duration="1587000" />
       <workItem from="1562651012224" duration="1231000" />
       <workItem from="1564233321991" duration="8648000" />
-      <workItem from="1564307022601" duration="15619000" />
+      <workItem from="1564307022601" duration="15848000" />
+      <workItem from="1564410643014" duration="3018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37877000" />
+    <option name="totallyTimeSpent" value="41124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1006" y="55" width="1388" height="1222" extended-state="0" />
+    <frame x="49" y="23" width="1388" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17629847" />
@@ -174,14 +177,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20825852" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3725314" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2078346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37214363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32854578" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24955116" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2491839" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -327,14 +330,21 @@
     <entry file="file://$PROJECT_DIR$/53.MaximumSubarray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="29" column="2" lean-forward="true" selection-end-line="34" />
+          <caret line="29" column="2" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/66.PlusOne.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="440">
+          <caret line="46" selection-start-line="46" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/67.AddBinary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>
