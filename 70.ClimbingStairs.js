@@ -27,7 +27,9 @@
  * @return {number}
  */
 var climbStairs = function (n) {
+  // x * 1 + y * 2 = n
+  const a = [], b = [];
 
 };
 
-console.log(climbStairs(3)); // n
+console.log(climbStairs(3)); // 3
