@@ -22,19 +22,19 @@
  * @return {ListNode}
  */
 var deleteDuplicates = function(head) {
-  let listNode = new ListNode();
-  let curr = listNode;
-  const stack = [];
-
-  while (head !== null){
-    if(stack.indexOf(head) === -1){
-      stack.push(head);
-      curr.next = head;
-      curr = curr.next;
-
-      head = head.next;
+  let curr = head;
+  while(curr !== null && curr.next !== null){
+    //  如果值相同，就跳过对应节点
+    if(curr.val === curr.next.val){
+      curr.next = curr.next.next
+    }else{
+      // 继续保持节点连接
+      curr = curr.next
     }
   }
 
-  return listNode.next;
+
+  return head;
 };
+
+console.log(deleteDuplicates([1,2,2,3,4,4])); // [1,2,3,4]

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/83.RemoveDuplicatesfromSortedList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/83.RemoveDuplicatesfromSortedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/83.RemoveDuplicatesfromSortedList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +96,8 @@
       <workItem from="1564830394880" duration="58000" />
       <workItem from="1564830479244" duration="72000" />
       <workItem from="1564830573204" duration="1464000" />
-      <workItem from="1565511830611" duration="6519000" />
+      <workItem from="1565511830611" duration="6557000" />
+      <workItem from="1565618015571" duration="1273000" />
     </task>
     <servers />
   </component>
