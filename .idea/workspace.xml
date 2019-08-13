@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/83.RemoveDuplicatesfromSortedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/83.RemoveDuplicatesfromSortedList.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1OubNiTXttN4ZUMxlM5fBgrzx06" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.70.ClimbingStairs.js">
+    <configuration name="58.LengthOfLastWord.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="58.LengthOfLastWord.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="66.PlusOne.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="66.PlusOne.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="67.AddBinary.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="67.AddBinary.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="69.Sqrt(x).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="69.Sqrt(x).js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="70.ClimbingStairs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="70.ClimbingStairs.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.70.ClimbingStairs.js" />
+        <item itemvalue="Node.js.69.Sqrt(x).js" />
+        <item itemvalue="Node.js.67.AddBinary.js" />
+        <item itemvalue="Node.js.66.PlusOne.js" />
+        <item itemvalue="Node.js.58.LengthOfLastWord.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f7c9cd7-35bd-43b7-8e91-34bffbf124e4" name="Default Changelist" comment="" />
+      <created>1561426259423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561426259423</updated>
+      <workItem from="1561426260700" duration="638000" />
+      <workItem from="1561426915484" duration="3195000" />
+      <workItem from="1561462998237" duration="6959000" />
+      <workItem from="1561512853064" duration="1587000" />
+      <workItem from="1562651012224" duration="1231000" />
+      <workItem from="1564233321991" duration="8648000" />
+      <workItem from="1564307022601" duration="15848000" />
+      <workItem from="1564410643014" duration="3270000" />
+      <workItem from="1564548400242" duration="1126000" />
+      <workItem from="1564583225208" duration="502000" />
+      <workItem from="1564589608867" duration="151000" />
+      <workItem from="1564668093904" duration="1344000" />
+      <workItem from="1564818701790" duration="200000" />
+      <workItem from="1564830394880" duration="58000" />
+      <workItem from="1564830479244" duration="72000" />
+      <workItem from="1564830573204" duration="1464000" />
+      <workItem from="1565511830611" duration="6557000" />
+      <workItem from="1565618015571" duration="1273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
