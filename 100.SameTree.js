@@ -44,10 +44,9 @@
  * @param {TreeNode} q
  * @return {boolean}
  */
-var isSameTree = function(p, q) {
-
+var isSameTree = function (p, q) {
+  if (p === null && q === null) return true;
+  if (p === null || q === null) return false;
+  if (p.val !== q.val) return false;
+  return isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
 };
-
-// console.log(merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3)); // [1,2,2,3,5,6]
-// console.log(merge([ -1, -1, 0, 0, 0, 0 ], 4, [ -1, 0 ], 2)); // [-1,-1,-1,0,0,0]
-console.log(merge([ -1, 0, 0, 3, 3, 3, 0, 0, 0 ], 6, [ 1, 2, 2 ], 3)); // [-1,0,0,1,2,2,3,3,3]
