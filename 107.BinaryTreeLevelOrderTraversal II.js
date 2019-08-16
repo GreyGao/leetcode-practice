@@ -35,8 +35,8 @@ var levelOrderBottom = function(root) {
   }
 
   const pushNode = (root, index) => {
-    if(!root) return [];
-    if(!root.left && !root.right) return [];
+    if(!root) return true;
+    if(!root.left && !root.right) return true;
     let arr = result[index] ? result[index] : [];
     if(root.left){
       arr.push(root.left.val)
