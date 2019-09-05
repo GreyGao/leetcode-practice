@@ -22,16 +22,16 @@
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
  */
-var reverseString = function(s) {
+var reverseString = function (s) {
   let length = s.length;
   let i = 0;
   while (i < length) {
     const x = s[0];
-    s.splice(1,1)
-    s.unshift(x);
+    s.splice(0, 1);
+    s.splice(length - 1 -i, 0, x);
     i++;
   }
   return s;
 };
 
-console.log(reverseString(["h","e","l","l","o"])); // ["o","l","l","e","h"]
+console.log(reverseString(["h", "e", "l", "l", "o"])); // ["o","l","l","e","h"]
