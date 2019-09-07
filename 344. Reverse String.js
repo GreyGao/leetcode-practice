@@ -35,3 +35,4 @@ var reverseString = function (s) {
 };
 
 console.log(reverseString(["h", "e", "l", "l", "o"])); // ["o","l","l","e","h"]
+console.log(reverseString(["h", "a", "p", "p", "y"])); // ["y","p","p","a","h"]
