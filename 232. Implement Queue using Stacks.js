@@ -1,71 +1,79 @@
-/**
- Implement the following operations of a stack using queues.
+/*
+ Implement the following operations of a queue using stacks.
 
- push(x) -- Push element x onto stack.
- pop() -- Removes the element on top of the stack.
- top() -- Get the top element.
- empty() -- Return whether the stack is empty.
+ push(x) -- Push element x to the back of queue.
+ pop() -- Removes the element from in front of queue.
+ peek() -- Get the front element.
+ empty() -- Return whether the queue is empty.
  Example:
 
- MyStack stack = new MyStack();
+ MyQueue queue = new MyQueue();
 
- stack.push(1);
- stack.push(2);
- stack.top();   // returns 2
- stack.pop();   // returns 2
- stack.empty(); // returns false
+ queue.push(1);
+ queue.push(2);
+ queue.peek();  // returns 1
+ queue.pop();   // returns 1
+ queue.empty(); // returns false
  Notes:
 
- You must use only standard operations of a queue -- which means only push to back, peek/pop from front, size, and is empty operations are valid.
- Depending on your language, queue may not be supported natively. You may simulate a queue by using a list or deque (double-ended queue), as long as you use only standard operations of a queue.
- You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).
- */
+ You must use only standard operations of a stack -- which means only push to top, peek/pop from top, size, and is empty operations are valid.
+ Depending on your language, stack may not be supported natively. You may simulate a stack by using a list or deque (double-ended queue), as long as you use only standard operations of a stack.
+ You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
+
+* */
+
 
 /**
  * Initialize your data structure here.
  */
-var MyStack = function() {
+var MyQueue = function() {
   this.queue = [];
 };
 
 /**
- * Push element x onto stack.
+ * Push element x to the back of queue.
  * @param {number} x
  * @return {void}
  */
-MyStack.prototype.push = function(x) {
+MyQueue.prototype.push = function(x) {
   this.queue.push(x);
 };
 
 /**
- * Removes the element on top of the stack and returns that element.
+ * Removes the element from in front of queue and returns that element.
  * @return {number}
  */
-MyStack.prototype.pop = function() {
-  return this.queue.pop();
+MyQueue.prototype.pop = function() {
+  if(this.queue.length>0){
+    const num = this.queue.slice(0,1);
+    this.queue.splice(0,1);
+    return num;
+  }
 };
 
 /**
- * Get the top element.
+ * Get the front element.
  * @return {number}
  */
-MyStack.prototype.top = function() {
-  return this.queue[this.queue.length - 1];
+MyQueue.prototype.peek = function() {
+  if(this.queue.length>0){
+    return this.queue[0]
+  }
 };
 
 /**
- * Returns whether the stack is empty.
+ * Returns whether the queue is empty.
  * @return {boolean}
  */
-MyStack.prototype.empty = function() {
+MyQueue.prototype.empty = function() {
   return this.queue.length === 0;
 };
 
 /**
- * Your MyStack object will be instantiated and called as such:
- * var obj = new MyStack()
+ * Your MyQueue object will be instantiated and called as such:
+ * var obj = new MyQueue()
  * obj.push(x)
  * var param_2 = obj.pop()
- * var param_3 = obj.top()
+ * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
