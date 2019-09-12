@@ -45,3 +45,7 @@ var isIsomorphic = function(s, t) {
   }
   return true;
 };
+
+// console.log(isIsomorphic('egg','add')); // true
+// console.log(isIsomorphic('foo','bar')); // false
+console.log(isIsomorphic('paper','title')); // true
