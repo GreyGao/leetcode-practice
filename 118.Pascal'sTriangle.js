@@ -20,6 +20,11 @@
  * @return {number[][]}
  */
 var generate = function (numRows) {
+  /**
+   * 复杂度分析: 时间O(n^2)
+   * Your runtime beats 97.00 % of javascript submissions.
+   * */
+
   if (numRows === 0) return [];
 
   const result = [[1]];
