@@ -32,9 +32,7 @@ var isPowerOfFour = function (num) {
   return x % 1 === 0;
 };
 
-const getBaselog = (num) => {
-  return Math.log(num) / Math.log(2)
-}
+const getBaselog = (num) => Math.log(num) / Math.log(2);
 
 console.log(isPowerOfFour(64)) // true;
 console.log(isPowerOfFour(36)) // false;
