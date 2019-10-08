@@ -25,6 +25,30 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var intersect = function(nums1, nums2) {
+var intersect = function (nums1, nums2) {
+  /**
+   * Runtime: 56 ms, faster than 84.84% of JavaScript online submissions for Intersection of Two Arrays II.
+   * Memory Usage: 36 MB, less than 18.52% of JavaScript online submissions for Intersection of Two Arrays II.
+   * */
 
+  const result = [];
+  const map = {}
+  for (const i of nums1) {
+    if (!map[i]) {
+      map[i] = 1;
+    } else {
+      map[i] += 1;
+    }
+  }
+  for (const j of nums2) {
+    if (map[j]) {
+      result.push(j);
+      map[j] -= 1;
+    }
+  }
+  return result;
 };
+
+console.log(intersect([1, 2, 2, 1], [2, 2])); // [2,2]
+console.log(intersect([4, 9, 5], [9, 4, 9, 8, 4])); // [4,9]
+console.log(intersect([3, 1, 2], [1, 1])); // [1]
