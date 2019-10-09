@@ -32,5 +32,21 @@
  * @return {string[]}
  */
 var fizzBuzz = function(n) {
-
+  let i = 1;
+  const result = [];
+  while (i<=n) {
+    let f = i % 3 === 0;
+    let b = i % 5 === 0;
+    if( f && b) {
+      result.push('FizzBuzz');
+    }else if(f){
+      result.push('Fizz')
+    }else if(b){
+      result.push('Buzz')
+    }else{
+      result.push(`${i}`)
+    }
+    i++;
+  }
+  return result;
 };
