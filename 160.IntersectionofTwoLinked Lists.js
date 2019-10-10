@@ -48,8 +48,10 @@ var getIntersectionNode = function (headA, headB) {
   };
 
   while (curr) {
-    if(curr === shorter) return curr.val;
-    if(curr.next === shorter.next) return curr.next.val;
+    // console.log('curr', curr)
+    // console.log('shorter', shorter)
+    if(curr === shorter) return curr;
+    if(curr.next === shorter.next) return curr.next;
     curr = curr.next;
     shorter = shorter.next;
   }
@@ -68,8 +70,9 @@ const countLen = (head) => {
 const removeTopElement = (head, n) => {
   let curr = head;
   let i = 0;
-  if(i < n) {
+  while(i < n) {
     curr = curr.next;
+    i++;
   }
   return curr;
 }
