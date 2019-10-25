@@ -60,7 +60,6 @@ var compress = function (chars) {
   } else {
     result += pre;
   }
-  chars.length = result.length;
   chars.splice(0, chars.length);
 
   for(const s of result) {
