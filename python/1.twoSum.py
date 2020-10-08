@@ -60,3 +60,6 @@ class Solution2(object):
 solution = Solution2()
 solution.twoSum([2, 7, 11, 15], 9)
 solution.twoSum([2, 5, 5, 11], 10)
+
+# 执行用时：24 ms, 在所有 Python 提交中击败了92.31%的用户
+# 内存消耗：13.6 MB, 在所有 Python 提交中击败了24.04%的用户
